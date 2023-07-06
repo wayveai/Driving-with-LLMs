@@ -1,4 +1,0 @@
-env
-llm-driver
-*/__pycache__
-wandb
