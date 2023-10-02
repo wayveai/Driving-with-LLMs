@@ -59,18 +59,13 @@ While the training and evaluation datasets already include pre-collected Driving
     ```
 ### 🏄 Evaluation
 
-1. **Download the finetuned LLM-Driver model**
-
-    You can find the model at this [link](https://drive.google.com/file/d/18gnHk4-lyH3ShxYtlH3eFmUoFjx11AR3/view?usp=sharing).
-
-2. **Evaluate for Perception and Action Prediction**
+1. **Evaluate for Perception and Action Prediction**
 
     Run the following command:
 
     ```sh
     python train.py \
         --mode eval \
-        --val_set_size 10000 \
         --resume_from_checkpoint models/weights/stage2_with_pretrained/ \
         --data_path data/vqa_train_10k.pkl \
         --val_data_path data/vqa_test_1k.pkl \
@@ -78,14 +73,13 @@ While the training and evaluation datasets already include pre-collected Driving
         --vqa
     ```
 
-3. **Evaluate for DrivingQA**
+2. **Evaluate for DrivingQA**
 
     Run the following command:
 
     ```sh
     python train.py \
         --mode eval \
-        --val_set_size 10000 \
         --resume_from_checkpoint models/weights/stage2_with_pretrained/ \
         --data_path data/vqa_train_10k.pkl \
         --val_data_path data/vqa_test_1k.pkl \
@@ -93,11 +87,11 @@ While the training and evaluation datasets already include pre-collected Driving
         --vqa
     ```
 
-4. **View Results**  
+3. **View Results**  
 
     The results can be viewed on the WandB project "llm-driver".
 
-5. **Grade DrivingQA Results with GPT API**  
+4. **Grade DrivingQA Results with GPT API**  
 
     To grade the results with GPT API, run the following command:
     ```sh
@@ -109,11 +103,8 @@ While the training and evaluation datasets already include pre-collected Driving
     ```
     Replace the `results/10k_ft.json` with the `val_results.table.json` downloaded from WandB to grade your results.
 ### 🏊 Training
-1. **Download pre-trained stage weights**
 
-    Download the pre-trained weights from this [link](https://drive.google.com/file/d/1x-Jxwy-UOge-J89rHMsllPKQW-nEuSof/view?usp=sharing).
-
-2. **Run LLM-Driver Training**
+1. **Run LLM-Driver Training**
 
     Execute the following command to start training:
 
@@ -128,9 +119,9 @@ While the training and evaluation datasets already include pre-collected Driving
         --val_data_path data/vqa_test_1k.pkl \
         --vqa
     ```
-3. **Follow the previous section for evaluating LLM-Driver**
+2. **Follow the previous section for evaluating LLM-Driver**
 
-4. **Train and evaluate Perceiver-BC**
+3. **[optional] Train and evaluate Perceiver-BC**
 
     Execute the following command to start training and evaluation:
 
