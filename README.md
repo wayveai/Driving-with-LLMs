@@ -10,7 +10,7 @@ described in:
 
 <p align="center">
      <img src="assets/main.png" alt="LLM-Driver" width="500px">
-     <br/> The LLM-Driver utilises object-level vector input from our driving simulator to predict explanable actions using pretrained Language Models, providing a robust and interpretable solution for autonomous driving. 
+     <br/> The LLM-Driver utilises object-level vector input from our driving simulator to predict explainable actions using pretrained Language Models, providing a robust and interpretable solution for autonomous driving. 
      <img src="assets/main.gif" alt="LLM-Driver">
     <br/> The LLM-Driver running in open-loop prediction using the vector inputs (top-left BEV view), with the results of action prediction (steering angles and acceleration/brake pedals), action justification (captions on the rendered video), Driving Question Answering (table at the bottom).
 </p>
