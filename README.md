@@ -23,7 +23,7 @@ described in:
 - Minimum of 40GB VRAM for training (default setting)
 
 ### ⚙ Setup
-1. **Set up a virtual environment**  
+1. **Set up a virtual environment (tested with Python 3.8 and 3.9)**  
 
     ```sh
     python3 -m venv env
@@ -33,8 +33,10 @@ described in:
 2. **Install required dependencies**  
 
     ```sh
-    pip install -r requirements.txt
+    pip install -r requirements.txt.lock
     ```
+   
+Note: `requirements.txt.lock` is generated with `pip-compile` from original `requirements.txt` for reproducibility. 
 
 3. **Set up WandB API key**  
 
