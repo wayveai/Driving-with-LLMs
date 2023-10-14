@@ -6,7 +6,7 @@ described in:
 >
 >[Long Chen](https://www.linkedin.com/in/long-chen-in/), [Oleg Sinavski](https://uk.linkedin.com/in/oleg-sinavski), [Jan Hünermann](https://uk.linkedin.com/in/janhuenermann), [Alice Karnsund](https://uk.linkedin.com/in/alice-karnsund), [Andrew James Willmott](https://uk.linkedin.com/in/andrew-willmott-2ba18510), [Danny Birch](https://uk.linkedin.com/in/dannybirch), [Daniel Maund](https://uk.linkedin.com/in/danmaund), [Jamie Shotton](https://jamie.shotton.org/)
 >
->[[preprint]](assets/preprint.pdf) [[arxiv]](https://arxiv.org/abs/2310.01957)
+>[[preprint]](https://github.com/wayveai/Driving-with-LLMs/blob/main/assets/preprint.pdf) [[arxiv]](https://arxiv.org/abs/2310.01957)
 
 <p align="center">
      <img src="assets/main.png" alt="LLM-Driver" width="500px">
