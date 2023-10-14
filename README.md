@@ -23,7 +23,7 @@ described in:
 - Minimum of 40GB VRAM for training (default setting)
 
 ### ⚙ Setup
-1. **Set up a virtual environment (tested with Python 3.8 and 3.9)**  
+1. **Set up a virtual environment (tested with Python 3.8-3.11)**  
 
     ```sh
     python3 -m venv env
