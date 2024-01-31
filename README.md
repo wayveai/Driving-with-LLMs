@@ -1,4 +1,5 @@
-# 🚗Driving-with-LLMs🚗
+![banner](assets/banner.png)
+
 This is the PyTorch implementation for inference and training of the LLM-Driver 
 described in:
 
@@ -6,6 +7,7 @@ described in:
 >
 >[Long Chen](https://long.ooo/), [Oleg Sinavski](https://uk.linkedin.com/in/oleg-sinavski), [Jan Hünermann](https://uk.linkedin.com/in/janhuenermann), [Alice Karnsund](https://uk.linkedin.com/in/alice-karnsund), [Andrew James Willmott](https://uk.linkedin.com/in/andrew-willmott-2ba18510), [Danny Birch](https://uk.linkedin.com/in/dannybirch), [Daniel Maund](https://uk.linkedin.com/in/danmaund), [Jamie Shotton](https://jamie.shotton.org/)
 >
+> *ICRA 2024* </br>
 >[[preprint]](https://github.com/wayveai/Driving-with-LLMs/blob/main/assets/preprint.pdf) [[arxiv]](https://arxiv.org/abs/2310.01957)
 
 <p align="center">
@@ -14,6 +16,14 @@ described in:
      <img src="assets/main.gif" alt="LLM-Driver">
     <br/> The LLM-Driver running in open-loop prediction using the vector inputs (top-left BEV view), with the results of action prediction (steering angles and acceleration/brake pedals), action justification (captions on the rendered video), Driving Question Answering (table at the bottom).
 </p>
+
+## News
+
+- **`[2024/01/29]`** Thrilled to share that our paper has been accepted by [ICRA 2024](https://2024.ieee-icra.org/)!
+- **`[2023/12/21]`** Please checkout our follow-up work `LingoQA`: [[code]](https://github.com/wayveai/LingoQA) [[arxiv]](https://arxiv.org/abs/2312.14115)
+- **`[2023/10/03]`** The paper is now avaliable on [[arxiv]](https://arxiv.org/abs/2310.01957)
+- **`[2023/07/06]`** The paper and code have been made available under the [paper_code](https://github.com/wayveai/Driving-with-LLMs/tree/paper_code) branch for anonymous submission.
+
 
 ## Getting Started
 ### Prerequisites
@@ -144,6 +154,15 @@ If you find our work useful in your research, please consider citing:
   author={Long Chen and Oleg Sinavski and Jan Hünermann and Alice Karnsund and Andrew James Willmott and Danny Birch and Daniel Maund and Jamie Shotton},
   journal={arXiv preprint arXiv:2310.01957},
   year={2023}
+}
+```
+
+```bibtex
+@article{marcu2023lingoqa,
+  title={LingoQA: Video Question Answering for Autonomous Driving}, 
+  author={Ana-Maria Marcu and Long Chen and Jan Hünermann and Alice Karnsund and Benoit Hanotte and Prajwal Chidananda and Saurabh Nair and Vijay Badrinarayanan and Alex Kendall and Jamie Shotton and Oleg Sinavski},
+  journal={arXiv preprint arXiv:2312.14115},
+  year={2023},
 }
 ```
 
