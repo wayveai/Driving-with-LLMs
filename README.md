@@ -149,11 +149,11 @@ While the training and evaluation datasets already include pre-collected Driving
 If you find our work useful in your research, please consider citing:
 
 ```bibtex
-@article{chen2023drivingwithllms,
+@inproceedings{chen2024drivingwithllms,
   title={Driving with LLMs: Fusing Object-Level Vector Modality for Explainable Autonomous Driving},
   author={Long Chen and Oleg Sinavski and Jan Hünermann and Alice Karnsund and Andrew James Willmott and Danny Birch and Daniel Maund and Jamie Shotton},
-  journal={arXiv preprint arXiv:2310.01957},
-  year={2023}
+  booktitle={2024 IEEE International Conference on Robotics and Automation (ICRA)},
+  year={2024}
 }
 ```
 
