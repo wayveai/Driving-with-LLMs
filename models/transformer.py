@@ -28,8 +28,8 @@ def plain_attention(
 ) -> Tuple[Tensor, Tensor]:
     """
     Args:
-        query: (batch, out_seq_len, dim)
-        key_value: (batch, in_seq_len, 2, dim)
+        query: (batch, out_seq_len, head, dim)
+        key_value: (batch, in_seq_len, 2, head, dim)
         mask: (batch, out_seq_len, in_seq_len)
         attention_dropout: dropout probability
         training: whether in training mode
