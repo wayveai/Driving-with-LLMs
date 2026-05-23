@@ -25,7 +25,7 @@ described in:
 
 - **`[2024/01/29]`** Thrilled to share that our paper has been accepted by [ICRA 2024](https://2024.ieee-icra.org/)!
 - **`[2023/12/21]`** Please checkout our follow-up work `LingoQA`: [[code]](https://github.com/wayveai/LingoQA) [[arxiv]](https://arxiv.org/abs/2312.14115)
-- **`[2023/10/03]`** The paper is now avaliable on [[arxiv]](https://arxiv.org/abs/2310.01957)
+- **`[2023/10/03]`** The paper is now available on [[arxiv]](https://arxiv.org/abs/2310.01957)
 - **`[2023/07/06]`** The paper and code have been made available under the [paper_code](https://github.com/wayveai/Driving-with-LLMs/tree/paper_code) branch for anonymous submission.
 
 
